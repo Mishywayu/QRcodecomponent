@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #6699CC;
+}
+.card{
+    width: 20%;
+    height: 63vh;
+    padding-top: 10px;
+    margin-top: 150px;
+    margin-left: 500px;
+    border-radius: 10px;
+    background: white;
+}
+.image{
+    width: 92%;
+    height: 40vh;
+    margin-left: 10px;
+    background-image: url(/Images/image-qr-code.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 6px;
+}
+.paragraphs{
+    margin-top: 20px;
+}
+h4{
+    font-family: 'Outfit';
+    font-weight: 700;
+    font-size: 17px;
+    text-align: justify;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #152238;
+}
+p{
+    font-family: 'Outfit';
+    font-weight: 400;
+    font-size: 12px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    color: #D3D3D3;
+}
+
+@media screen and (max-width: 320px) {
+    .card{
+        width: 80%;
+        height: 83vh;
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+    .image{
+        width: 90%;
+        height: 50vh;
+        margin-left: 12px;
+    }
+    .paragraphs{
+        /* background: red; */
+        margin-top: 20px;
+    }
+    h4{
+        font-size: 18px;
+        text-align: center;
+    }
+    p{
+        padding-top: 8px;
+        font-size: 15px;
+        text-align: center;
+    }
+}
+
+
+
+
+
