@@ -19,7 +19,7 @@ body{
     width: 92%;
     height: 40vh;
     margin-left: 10px;
-    background-image: url(/Images/image-qr-code.png);
+    background-image: url(/image-qr-code.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
